@@ -1,0 +1,29 @@
+<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Name>Mapa Geol&#243;gico</Name><AddInID>{f8cd02da-9e61-4817-9c3e-9626c2b16e98}</AddInID><Description>Mapa Geol&#243;gico</Description><Version>0.1.0</Version><Image>Images\ingemmet_logo.png</Image><Author>Daniel Aguado Huaccharaqui</Author><Company>INGEMMET</Company><Date>09/25/2017</Date><Targets><Target name="Desktop" version="10.1" /></Targets><AddIn language="PYTHON" library="addin_addin.py" namespace="addin_addin"><ArcMap>
+    <Commands>
+        <ComboBox caption=" Fila  " category="Mapa Geol&#243;gico" class="selectRow" id="addin_addin.getRow" itemSizeString="WWW" message="" rows="37" sizeString="WWW" tip="Selector de filas"><Help heading="Selector de filas" /></ComboBox>
+
+        <ComboBox caption=" Columna  " category="Mapa Geol&#243;gico" class="selectCol" id="addin_addin.getCol" itemSizeString="WWW" message="" rows="11" sizeString="WWW" tip="Selector de columnas"><Help heading="Selector de columnas" /></ComboBox>
+
+        <ComboBox caption=" Cuadrante  " category="Mapa Geol&#243;gico" class="selectQuad" id="addin_addin.getQuad" itemSizeString="WWW" message="" rows="4" sizeString="WWW" tip="Selector de cuadrantes"><Help heading="Selector de cuadrantes" /></ComboBox>
+
+        <Button caption="load_code" category="Mapa Geol&#243;gico" class="loadCode" id="addin_addin.loadCode" image="Images\select.png" message="Almacena el codigo de hoja seleccionado para su procesamiento" tip="Cargar codigo"  separator="true"><Help heading="Cargar codigo">Cargar codigo de hoja</Help></Button>
+
+        <Button caption="make_profile" category="Mapa Geol&#243;gico" class="makeProfile" id="addin_addin.Profile" image="Images\surface.png" message="Construye el perfil longitudinal" tip="Perfil Longitudinal"  separator="true"><Help heading="Perfil Longitudinal">Perfil Longitudinal</Help></Button>
+
+        <Button caption="make_map" category="Mapa Geol&#243;gico" class="makeMap" id="addin_addin.MapGeo" image="Images\settings.png" message="Genera el mapa Geol&#243;gico obteniendo insumos directamente de la Geodatabase" tip="Generar Mapa Geol&#243;gico"><Help heading="Generar Mapa Geol&#243;gico">Generar Mapa Geol&#243;gico</Help></Button>
+
+        <Button caption="Tabla de Leyenda Geol&#243;gica" category="Mapa Geol&#243;gico" class="makeTableLegend" id="addin_addin.TbLegend" image="Images\makeTable.png" message="Obtener la tabla de leyenda a partir de la capa de Geolog&#237;a" tip="Tabla de leyenda"><Help heading="Tabla de leyenda">Tabla de leyenda</Help></Button>
+
+        <Button caption="Leyenda Geol&#243;gica" category="Mapa Geol&#243;gico" class="makeFeatureLegend" id="addin_addin.Legend" image="Images\legend.png" message="Construir Leyenda Geol&#243;gica" tip="Leyenda Geol&#243;gica"><Help heading="Leyenda Geol&#243;gica">Leyenda Geol&#243;gica</Help></Button>
+
+        <Button caption="Leyenda Secundaria" category="Mapa Geol&#243;gico" class="makeLegendSecond" id="addin_addin.LegendSecond" image="Images\legendSeconds.png" message="Leyenda Secundaria" tip="Leyenda Secundaria" separator="true"><Help heading="Leyenda Secundaria">Leyenda Secundaria</Help></Button>
+        </Commands>
+    <Extensions>
+        </Extensions>
+    <Toolbars>
+        <Toolbar caption="Mapa Geol&#243;gico" category="Mapa Geol&#243;gico" id="addin_addin.toolbar" showInitially="true"><Items><ComboBox refID="addin_addin.getRow" /><ComboBox refID="addin_addin.getCol" /><ComboBox refID="addin_addin.getQuad" /><Button refID="addin_addin.loadCode" /><Menu refID="addin_addin.legendGeology" /><Button refID="addin_addin.Profile" /><Button refID="addin_addin.MapGeo" /></Items></Toolbar>
+        </Toolbars>
+    <Menus>
+        <Menu caption=" Leyenda " category="Mapa Geol&#243;gico" id="addin_addin.legendGeology" isRootMenu="false" isShortcutMenu="false" separator="true"><Items><Button refID="addin_addin.TbLegend" /><Button refID="addin_addin.Legend" /><Button refID="addin_addin.LegendSecond" separator="true" /></Items></Menu>
+        </Menus>
+    </ArcMap></AddIn></ESRI.Configuration>

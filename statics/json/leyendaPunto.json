@@ -1,0 +1,48 @@
+{
+  "displayFieldName": "",
+  "fieldAliases": {
+    "ETIQUETA": "ETIQUETA",
+    "ANGULO": "ANGULO",
+    "ESTILO": "ESTILO",
+    "HOJA": "HOJA",
+    "CUADRANTE": "CUADRANTE",
+    "CODHOJA": "CODHOJA"
+  },
+  "geometryType": "esriGeometryPoint",
+  "fields": [
+    {
+      "name": "ETIQUETA",
+      "type": "esriFieldTypeString",
+      "alias": "ETIQUETA",
+      "length": 200
+    },
+    {
+      "name": "ANGULO",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "ANGULO"
+    },
+    {
+      "name": "ESTILO",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "ESTILO"
+    },
+    {
+      "name": "HOJA",
+      "type": "esriFieldTypeString",
+      "alias": "HOJA",
+      "length": 4
+    },
+    {
+      "name": "CUADRANTE",
+      "type": "esriFieldTypeString",
+      "alias": "CUADRANTE",
+      "length": 1
+    },
+    {
+      "name": "CODHOJA",
+      "type": "esriFieldTypeString",
+      "alias": "CODHOJA",
+      "length": 4
+    }
+  ]
+}

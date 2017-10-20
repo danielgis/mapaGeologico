@@ -1,0 +1,156 @@
+{
+  "displayFieldName": "",
+  "fieldAliases": {
+    "CODI": "CODI",
+    "CODFORM": "CODFORM",
+    "ETIQUETA": "ETIQUETA",
+    "GRUPO": "GRUPO",
+    "FORMACION": "FORMACION",
+    "DEPOSITO": "DEPOSITO",
+    "MIEMBRO": "MIEMBRO",
+    "CVOLC": "CVOLC",
+    "BATOLIT": "BATOLIT",
+    "SUP_UNIDAD": "SUP_UNIDAD",
+    "UNIDAD": "UNIDAD",
+    "PLUTON": "PLUTON",
+    "DESCRIP": "DESCRIP",
+    "SERIE": "SERIE",
+    "SERIE_ADI": "SERIE_ADI",
+    "TIPOFORM": "TIPOFORM",
+    "CONTFORM": "CONTFORM",
+    "ORDEN": "ORDEN",
+    "HOJA": "HOJA",
+    "CUADRANTE": "CUADRANTE",
+    "CODHOJA": "CODHOJA"
+  },
+  "geometryType": "esriGeometryPolygon",
+  "fields": [
+    {
+      "name": "CODI",
+      "type": "esriFieldTypeInteger",
+      "alias": "CODI",
+      "length": 5
+    },
+    {
+      "name": "CODFORM",
+      "type": "esriFieldTypeString",
+      "alias": "CODFORM",
+      "length": 9
+    },
+    {
+      "name": "ETIQUETA",
+      "type": "esriFieldTypeString",
+      "alias": "ETIQUETA",
+      "length": 100
+    },
+    {
+      "name": "GRUPO",
+      "type": "esriFieldTypeString",
+      "alias": "GRUPO",
+      "length": 100
+    },
+    {
+      "name": "FORMACION",
+      "type": "esriFieldTypeString",
+      "alias": "FORMACION",
+      "length": 100
+    },
+    {
+      "name": "DEPOSITO",
+      "type": "esriFieldTypeString",
+      "alias": "DEPOSITO",
+      "length": 100
+    },
+    {
+      "name": "MIEMBRO",
+      "type": "esriFieldTypeString",
+      "alias": "MIEMBRO",
+      "length": 100
+    },
+    {
+      "name": "CVOLC",
+      "type": "esriFieldTypeString",
+      "alias": "CVOLC",
+      "length": 100
+    },
+    {
+      "name": "BATOLIT",
+      "type": "esriFieldTypeString",
+      "alias": "BATOLIT",
+      "length": 100
+    },
+    {
+      "name": "SUP_UNIDAD",
+      "type": "esriFieldTypeString",
+      "alias": "SUP_UNIDAD",
+      "length": 100
+    },
+    {
+      "name": "UNIDAD",
+      "type": "esriFieldTypeString",
+      "alias": "UNIDAD",
+      "length": 100
+    },
+    {
+      "name": "PLUTON",
+      "type": "esriFieldTypeString",
+      "alias": "PLUTON",
+      "length": 100
+    },
+    {
+      "name": "DESCRIP",
+      "type": "esriFieldTypeString",
+      "alias": "DESCRIP",
+      "length": 200
+    },
+    {
+      "name": "SERIE",
+      "type": "esriFieldTypeString",
+      "alias": "SERIE",
+      "length": 4
+    },
+    {
+      "name": "SERIE_ADI",
+      "type": "esriFieldTypeString",
+      "alias": "SERIE_ADI",
+      "length": 4
+    },
+    {
+      "name": "TIPOFORM",
+      "type": "esriFieldTypeInteger",
+      "alias": "TIPOFORM",
+      "length": 1
+    },
+    {
+      "name": "CONTFORM",
+      "type": "esriFieldTypeInteger",
+      "alias": "CONTFORM",
+      "length": 9
+    },
+    {
+      "name": "ORDEN",
+      "type": "esriFieldTypeInteger",
+      "alias": "ORDEN",
+      "length": 2
+    },
+    {
+      "name": "HOJA",
+      "type": "esriFieldTypeString",
+      "alias": "HOJA",
+      "length": 4
+    },
+    {
+      "name": "CUADRANTE",
+      "type": "esriFieldTypeString",
+      "alias": "CUADRANTE",
+      "length": 1
+    },
+    {
+      "name": "CODHOJA",
+      "type": "esriFieldTypeString",
+      "alias": "CODHOJA",
+      "length": 5
+    }
+  ],
+  "features": []
+}
